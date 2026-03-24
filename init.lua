@@ -78,6 +78,7 @@ local function spawn_particles()
                         minpos = posmin,
                         maxpos = posmax,
                         pos = {min = posmin, max = posmax},
+                        jitter = {min = {x=-4,y=-4,z=-4}, max ={x=4,y=4,z=4}, bias = 0},
                         mminvel = velmin,
                         maxvel = velmax,
                         vel = {min = velmin, max = velmax},
